@@ -1,0 +1,41 @@
+/* src/App.css */
+body {
+  background-color: #f9f9f9;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+}
+
+input, textarea {
+  width: 100%;
+  max-width: 400px;
+  margin: 8px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.post {
+  background: white;
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin: 10px auto;
+  border-radius: 8px;
+  max-width: 500px;
+}
